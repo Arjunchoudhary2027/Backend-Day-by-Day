@@ -1,0 +1,21 @@
+if you want run code in outside the website , we use node +file name in terminal (node app.js)
+ steps:-
+ > install package.json using (npm init -y)
+ > install node_modules using (npm i express)
+ > create file app.js where u write the code 
+   . first require express in app.js , its store in const value
+     Example- const CatMe = require("cat-me")
+   . console the express
+     Example- console.log(catMe())
+
+
+
+
+
+echo "# Backend-Day-by-Day-class" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Arjunchoudhary2027/Backend-Day-by-Day-class.git
+git push -u origin main     
