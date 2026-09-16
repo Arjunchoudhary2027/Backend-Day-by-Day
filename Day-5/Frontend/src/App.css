@@ -1,0 +1,19 @@
+.main-box{
+ display: flex;
+ gap: 10px;
+ flex-wrap: wrap;
+}
+.box{
+  background-color: slategray;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.note-create-form{
+  display: flex;
+  padding-block: 10px;
+  gap: 10px;
+
+}
