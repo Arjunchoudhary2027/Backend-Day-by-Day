@@ -1,6 +1,8 @@
+require("dotenv").config();
+const express =require("express")
 const app= require("./src/app.js")
-const dns = require("dns");
 const connectToDB = require("./src/config/database.js");
+const dns = require("dns");
 dns.setServers(["8.8.8.8", "8.8.4.4"]);
 
 
